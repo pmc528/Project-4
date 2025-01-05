@@ -1,0 +1,47 @@
+p1 = 4x^4 - 3.8x^3 + 2.2x^2 + x
+p1 = 4x^4 - 3.8x^3 + x
+p1 = 4x^4 - 3.8x^3 + x
+p2 = 4x^4 - 3.8x^3 + 9.5x^2 + x
+p3 = 8x^4 - 7.6x^3 + 9.5x^2 + 2x
+
+Beginning testing for each function...
+test1 plynomial: 6x^9 + 7x^7 + 4x^4 - 3.8x^3
+test2 plynomial: 2.5x^4 + 3.8x^3 + x + 100
+test3 plynomial: 0
+test4 plynomial: -2.5x^4 + 4.5x^3 + 6x^2 - x
+test5 plynomial: 3
+test6 plynomial: 0
+Degree of test1 polynomial: 9
+Degree of test2 polynomial: 4
+Degree of empty test3 polynomial: 0
+Degree of test5 polynomial with only coefficient: 0
+Coefficient of test1: 6
+Coefficient of test2: 3.8
+Coefficient of test5: 3
+Coefficient of empty polynomial test3: 0
+Change first coefficient of test1 to 8 for expo of 9: 8x^9 + 7x^7 + 4x^4 - 3.8x^3
+Change first coefficient of test2 to 2.6 for expo of 4: 2.6x^4 + 3.8x^3 + x + 100
+Change first coefficient of test2 to zero for expo of 4: 3.8x^3 + x + 100
+test1 + test2: 8x^9 + 7x^7 + 4x^4 + x + 100
+test1 + test3: 8x^9 + 7x^7 + 4x^4 - 3.8x^3
+test1 - test2: 8x^9 + 7x^7 + 4x^4 - 7.6x^3 - x - 100
+test2 - test1: -8x^9 - 7x^7 - 4x^4 + 7.6x^3 + x + 100
+test1 - test3: 8x^9 + 7x^7 + 4x^4 - 3.8x^3
+test2 - test5: 3.8x^3 + x + 97
+test5 - test3: 3
+test1 += test2: 8x^9 + 7x^7 + 4x^4 + x + 100
+test1 -= test2: 8x^9 + 7x^7 + 4x^4 - 3.8x^3
+test3 -= test4: 2.5x^4 - 4.5x^3 - 6x^2 + x
+test3 += test4: 0
+test4 += test3: -2.5x^4 + 4.5x^3 + 6x^2 - x
+test4 -= test3: -2.5x^4 + 4.5x^3 + 6x^2 - x
+Set test1 = test1: 8x^9 + 7x^7 + 4x^4 - 3.8x^3
+Set empty polynomial test3 equal to test4: -2.5x^4 + 4.5x^3 + 6x^2 - x
+Set test4 equal to empty polynomial test6: 0
+Copy constructor to create new polynomial test7 from test1: 8x^9 + 7x^7 + 4x^4 - 3.8x^3
+Copy constructor to create new polynomial test8 from an empty polynomial: -2.5x^4 + 4.5x^3 + 6x^2 - x
+= operator to set test7 equal to test2: 3.8x^3 + x + 100
+Is test3 equal to test6? 0
+Is test3 not equal to test6? 1
+Does test2 equal test2? 1
+Does test3 equal test1? 0
